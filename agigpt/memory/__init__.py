@@ -1,12 +1,12 @@
-from autogpt.memory.local import LocalCache
-from autogpt.memory.no_memory import NoMemory
+from agigpt.memory.local import LocalCache
+from agigpt.memory.no_memory import NoMemory
 
 # List of supported memory backends
 # Add a backend to this list if the import attempt is successful
 supported_memory = ["local", "no_memory"]
 
 try:
-    from autogpt.memory.redismem import RedisMemory
+    from agigpt.memory.redismem import RedisMemory
 
     supported_memory.append("redis")
 except ImportError:
@@ -14,7 +14,7 @@ except ImportError:
     RedisMemory = None
 
 try:
-    from autogpt.memory.pinecone import PineconeMemory
+    from agigpt.memory.pinecone import PineconeMemory
 
     supported_memory.append("pinecone")
 except ImportError:
@@ -22,7 +22,7 @@ except ImportError:
     PineconeMemory = None
 
 try:
-    from autogpt.memory.weaviate import WeaviateMemory
+    from agigpt.memory.weaviate import WeaviateMemory
 
     supported_memory.append("weaviate")
 except ImportError:
@@ -30,7 +30,7 @@ except ImportError:
     WeaviateMemory = None
 
 try:
-    from autogpt.memory.milvus import MilvusMemory
+    from agigpt.memory.milvus import MilvusMemory
 
     supported_memory.append("milvus")
 except ImportError:

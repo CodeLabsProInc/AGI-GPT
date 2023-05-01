@@ -2,4 +2,4 @@
 import agigpt.cli
 
 if __name__ == "__main__":
-    autogpt.cli.main()
+    agigpt.cli.main()

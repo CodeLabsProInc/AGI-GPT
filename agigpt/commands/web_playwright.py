@@ -9,7 +9,7 @@ except ImportError:
     )
 from bs4 import BeautifulSoup
 
-from autogpt.processing.html import extract_hyperlinks, format_hyperlinks
+from agigpt.processing.html import extract_hyperlinks, format_hyperlinks
 
 
 def scrape_text(url: str) -> str:

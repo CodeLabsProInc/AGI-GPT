@@ -7,8 +7,8 @@ import json
 import re
 from typing import Optional
 
-from autogpt.config import Config
-from autogpt.json_utils.utilities import extract_char_position
+from agigpt.config import Config
+from agigpt.json_utils.utilities import extract_char_position
 
 CFG = Config()
 

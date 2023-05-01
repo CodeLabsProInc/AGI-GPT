@@ -1,7 +1,7 @@
 """Code evaluation module."""
 from __future__ import annotations
 
-from autogpt.llm_utils import call_ai_function
+from agigpt.llm_utils import call_ai_function
 
 
 def analyze_code(code: str) -> list[str]:

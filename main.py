@@ -1,1 +1,1 @@
-from autogpt import main
+from agigpt import main

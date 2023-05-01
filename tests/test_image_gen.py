@@ -4,9 +4,9 @@ import unittest
 
 from PIL import Image
 
-from autogpt.commands.image_gen import generate_image, generate_image_with_sd_webui
-from autogpt.config import Config
-from autogpt.workspace import path_in_workspace
+from agigpt.commands.image_gen import generate_image, generate_image_with_sd_webui
+from agigpt.config import Config
+from agigpt.workspace import path_in_workspace
 
 
 def lst(txt):

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from autogpt.llm_utils import call_ai_function
+from agigpt.llm_utils import call_ai_function
 
 
 def improve_code(suggestions: list[str], code: str) -> str:

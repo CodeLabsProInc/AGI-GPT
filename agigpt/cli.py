@@ -1,4 +1,4 @@
-"""Main script for the autogpt package."""
+"""Main script for the agigpt package."""
 import click
 
 
@@ -74,13 +74,13 @@ def main(
 
     from colorama import Fore
 
-    from autogpt.agent.agent import Agent
-    from autogpt.config import Config, check_openai_api_key
-    from autogpt.configurator import create_config
-    from autogpt.logs import logger
-    from autogpt.memory import get_memory
-    from autogpt.prompt import construct_prompt
-    from autogpt.utils import get_current_git_branch, get_latest_bulletin
+    from agigpt.agent.agent import Agent
+    from agigpt.config import Config, check_openai_api_key
+    from agigpt.configurator import create_config
+    from agigpt.logs import logger
+    from agigpt.memory import get_memory
+    from agigpt.prompt import construct_prompt
+    from agigpt.utils import get_current_git_branch, get_latest_bulletin
 
     if ctx.invoked_subcommand is None:
         cfg = Config()

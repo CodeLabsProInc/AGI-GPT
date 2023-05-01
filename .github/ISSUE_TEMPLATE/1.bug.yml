@@ -12,7 +12,7 @@ body:
 
         [backlog]: https://github.com/orgs/Significant-Gravitas/projects/1
         [roadmap]: https://github.com/orgs/Significant-Gravitas/projects/2  
-        [discord]: https://discord.gg/autogpt
+        [discord]: https://discord.gg/agigpt
         [discussions]: https://github.com/Significant-Gravitas/Auto-GPT/discussions
         [#tech-support]: https://discord.com/channels/1092243196446249134/1092275629602394184
         [existing issues]: https://github.com/Significant-Gravitas/Auto-GPT/issues?q=is%3Aissue
@@ -31,13 +31,13 @@ body:
         Please provide a searchable summary of the issue in the title above ⬆️.
 
         ⚠️ SUPER-busy repo, please help the volunteer maintainers.
-        The less time we spend here, the more time we spend building AutoGPT.
+        The less time we spend here, the more time we spend building agigpt.
         
         Please help us help you:
         - Does it work on `stable` branch (https://github.com/Torantulino/Auto-GPT/tree/stable)?
         - Does it work on current `master` (https://github.com/Torantulino/Auto-GPT/tree/master)?
         - Search for existing issues, "add comment" is tidier than "new issue"
-        - Ask on our Discord (https://discord.gg/autogpt)
+        - Ask on our Discord (https://discord.gg/agigpt)
         - Provide relevant info:
           - Provide commit-hash (`git rev-parse HEAD` gets it)
           - If it's a pip/packages issue, provide pip version, python version

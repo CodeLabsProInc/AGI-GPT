@@ -3,8 +3,8 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-import autogpt.agent.agent_manager as agent_manager
-from autogpt.app import execute_command, list_agents, start_agent
+import agigpt.agent.agent_manager as agent_manager
+from agigpt.app import execute_command, list_agents, start_agent
 
 
 @pytest.mark.integration_test

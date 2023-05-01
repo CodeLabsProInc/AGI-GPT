@@ -2,15 +2,15 @@
 import json
 from typing import Dict, List, NoReturn, Union
 
-from autogpt.agent.agent_manager import AgentManager
-from autogpt.commands.analyze_code import analyze_code
-from autogpt.commands.audio_text import read_audio_from_file
-from autogpt.commands.execute_code import (
+from agigpt.agent.agent_manager import AgentManager
+from agigpt.commands.analyze_code import analyze_code
+from agigpt.commands.audio_text import read_audio_from_file
+from agigpt.commands.execute_code import (
     execute_python_file,
     execute_shell,
     execute_shell_popen,
 )
-from autogpt.commands.file_operations import (
+from agigpt.commands.file_operations import (
     append_to_file,
     delete_file,
     download_file,
@@ -18,19 +18,19 @@ from autogpt.commands.file_operations import (
     search_files,
     write_to_file,
 )
-from autogpt.commands.git_operations import clone_repository
-from autogpt.commands.google_search import google_official_search, google_search
-from autogpt.commands.image_gen import generate_image
-from autogpt.commands.improve_code import improve_code
-from autogpt.commands.twitter import send_tweet
-from autogpt.commands.web_requests import scrape_links, scrape_text
-from autogpt.commands.web_selenium import browse_website
-from autogpt.commands.write_tests import write_tests
-from autogpt.config import Config
-from autogpt.json_utils.json_fix_llm import fix_and_parse_json
-from autogpt.memory import get_memory
-from autogpt.processing.text import summarize_text
-from autogpt.speech import say_text
+from agigpt.commands.git_operations import clone_repository
+from agigpt.commands.google_search import google_official_search, google_search
+from agigpt.commands.image_gen import generate_image
+from agigpt.commands.improve_code import improve_code
+from agigpt.commands.twitter import send_tweet
+from agigpt.commands.web_requests import scrape_links, scrape_text
+from agigpt.commands.web_selenium import browse_website
+from agigpt.commands.write_tests import write_tests
+from agigpt.config import Config
+from agigpt.json_utils.json_fix_llm import fix_and_parse_json
+from agigpt.memory import get_memory
+from agigpt.processing.text import summarize_text
+from agigpt.speech import say_text
 
 CFG = Config()
 AGENT_MANAGER = AgentManager()

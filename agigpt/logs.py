@@ -10,8 +10,8 @@ from logging import LogRecord
 
 from colorama import Fore, Style
 
-from autogpt.config import Config, Singleton
-from autogpt.speech import say_text
+from agigpt.config import Config, Singleton
+from agigpt.speech import say_text
 
 CFG = Config()
 
@@ -33,7 +33,7 @@ class Logger(metaclass=Singleton):
         log_file = "activity.log"
         error_file = "error.log"
 
-        console_formatter = AutoGptFormatter("%(title_color)s %(message)s")
+        console_formatter = AgiGptFormatter("%(title_color)s %(message)s")
 
         # Create a handler for console which simulate typing
         self.typing_console_handler = TypingConsoleHandler()
@@ -50,7 +50,7 @@ class Logger(metaclass=Singleton):
             os.path.join(log_dir, log_file), "a", "utf-8"
         )
         self.file_handler.setLevel(logging.DEBUG)
-        info_formatter = AutoGptFormatter(
+        info_formatter = AgiGptFormatter(
             "%(asctime)s %(levelname)s %(title)s %(message_no_color)s"
         )
         self.file_handler.setFormatter(info_formatter)
@@ -60,7 +60,7 @@ class Logger(metaclass=Singleton):
             os.path.join(log_dir, error_file), "a", "utf-8"
         )
         error_handler.setLevel(logging.ERROR)
-        error_formatter = AutoGptFormatter(
+        error_formatter = AgiGptFormatter(
             "%(asctime)s %(levelname)s %(module)s:%(funcName)s:%(lineno)d %(title)s"
             " %(message_no_color)s"
         )
@@ -171,7 +171,7 @@ class ConsoleHandler(logging.StreamHandler):
             self.handleError(record)
 
 
-class AutoGptFormatter(logging.Formatter):
+class AgiGptFormatter(logging.Formatter):
     """
     Allows to handle custom placeholders 'title_color' and 'message_no_color'.
     To use this formatter, make sure to pass 'color', 'title' as log extras.
@@ -204,7 +204,7 @@ logger = Logger()
 
 def print_assistant_thoughts(ai_name, assistant_reply):
     """Prints the assistant's thoughts to the console"""
-    from autogpt.json_utils.json_fix_llm import (
+    from agigpt.json_utils.json_fix_llm import (
         attempt_to_fix_json_by_finding_outermost_brackets,
         fix_and_parse_json,
     )

@@ -1,4 +1,4 @@
-from autogpt.agent.agent import Agent
-from autogpt.agent.agent_manager import AgentManager
+from agigpt.agent.agent import Agent
+from agigpt.agent.agent_manager import AgentManager
 
 __all__ = ["Agent", "AgentManager"]

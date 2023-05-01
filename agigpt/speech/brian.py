@@ -1,14 +1,14 @@
-""" Brian speech module for autogpt """
+""" Brian speech module for agigpt """
 import os
 
 import requests
 from playsound import playsound
 
-from autogpt.speech.base import VoiceBase
+from agigpt.speech.base import VoiceBase
 
 
 class BrianSpeech(VoiceBase):
-    """Brian speech module for autogpt"""
+    """Brian speech module for agigpt"""
 
     def _setup(self) -> None:
         """Setup the voices, API key, etc."""

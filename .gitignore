@@ -1,9 +1,9 @@
 ## Original ignores
-autogpt/keys.py
-autogpt/*json
-autogpt/node_modules/
-autogpt/__pycache__/keys.cpython-310.pyc
-autogpt/auto_gpt_workspace
+agigpt/keys.py
+agigpt/*json
+agigpt/node_modules/
+agigpt/__pycache__/keys.cpython-310.pyc
+agigpt/auto_gpt_workspace
 package-lock.json
 *.pyc
 auto_gpt_workspace/*

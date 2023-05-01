@@ -1,4 +1,4 @@
-"""File operations for AutoGPT"""
+"""File operations for AgiGPT"""
 from __future__ import annotations
 
 import os
@@ -9,9 +9,9 @@ import requests
 from colorama import Back, Fore
 from requests.adapters import HTTPAdapter, Retry
 
-from autogpt.spinner import Spinner
-from autogpt.utils import readable_file_size
-from autogpt.workspace import WORKSPACE_PATH, path_in_workspace
+from agigpt.spinner import Spinner
+from agigpt.utils import readable_file_size
+from agigpt.workspace import WORKSPACE_PATH, path_in_workspace
 
 LOG_FILE = "file_logger.txt"
 LOG_FILE_PATH = WORKSPACE_PATH / LOG_FILE

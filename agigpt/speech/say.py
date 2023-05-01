@@ -2,11 +2,11 @@
 import threading
 from threading import Semaphore
 
-from autogpt.config import Config
-from autogpt.speech.brian import BrianSpeech
-from autogpt.speech.eleven_labs import ElevenLabsSpeech
-from autogpt.speech.gtts import GTTSVoice
-from autogpt.speech.macos_tts import MacOSTTS
+from agigpt.config import Config
+from agigpt.speech.brian import BrianSpeech
+from agigpt.speech.eleven_labs import ElevenLabsSpeech
+from agigpt.speech.gtts import GTTSVoice
+from agigpt.speech.macos_tts import MacOSTTS
 
 CFG = Config()
 DEFAULT_VOICE_ENGINE = GTTSVoice()

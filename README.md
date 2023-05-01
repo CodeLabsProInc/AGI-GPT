@@ -1,10 +1,10 @@
 # AGI-GPT: An Autonomous GPT-4 Experiment
 [![Unit Tests](https://img.shields.io/github/actions/workflow/status/Significant-Gravitas/AGI-GPT/ci.yml?label=unit%20tests)](https://github.com/Significant-Gravitas/AGI-GPT/actions/workflows/ci.yml)
-[![Discord Follow](https://dcbadge.vercel.app/api/server/autogpt?style=flat)](https://discord.gg/autogpt)
+[![Discord Follow](https://dcbadge.vercel.app/api/server/agigpt?style=flat)](https://discord.gg/agigpt)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Significant-Gravitas/AGI-GPT?style=social)](https://github.com/Significant-Gravitas/AGI-GPT/stargazers)
 [![Twitter Follow](https://img.shields.io/twitter/follow/siggravitas?style=social)](https://twitter.com/SigGravitas)
 
-## 💡 Get help - [Q&A](https://github.com/Significant-Gravitas/AGI-GPT/discussions/categories/q-a) or [Discord 💬](https://discord.gg/autogpt)
+## 💡 Get help - [Q&A](https://github.com/Significant-Gravitas/AGI-GPT/discussions/categories/q-a) or [Discord 💬](https://discord.gg/agigpt)
 
 <hr/>
 
@@ -32,7 +32,7 @@ Development of this free, open-source project is made possible by all the <a hre
 </p>
 
 <p align="center">
-<a href="https://www.influxdata.com/"><img src="https://user-images.githubusercontent.com/22963551/233059795-2ec47b2a-c2c0-4c10-98a7-0d1212740cc0.png" height="40px" alt="InfluxData" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://roost.ai"><img src="https://user-images.githubusercontent.com/22963551/233059778-055502b4-fa2e-4334-82b6-9a12252fd9e1.png" height="40px" alt="Roost.AI" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://nuclei.ai/"><img src="https://user-images.githubusercontent.com/22963551/233059785-28ce2549-62de-42c2-925a-c0aa08aef6bd.png" height="40px" alt="NucleiAI" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.algohash.org/"><img src="https://user-images.githubusercontent.com/22963551/233061211-9a9ec216-9fc0-46fd-a124-bf951057207c.png" height="40px" alt="Algohash" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.typingmind.com/?utm_source=autogpt"><img src="https://user-images.githubusercontent.com/22963551/233202971-61e77209-58a0-47d9-9f7e-dd081111437b.png" height="40px" alt="TypingMind" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</p></p>
+<a href="https://www.influxdata.com/"><img src="https://user-images.githubusercontent.com/22963551/233059795-2ec47b2a-c2c0-4c10-98a7-0d1212740cc0.png" height="40px" alt="InfluxData" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://roost.ai"><img src="https://user-images.githubusercontent.com/22963551/233059778-055502b4-fa2e-4334-82b6-9a12252fd9e1.png" height="40px" alt="Roost.AI" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://nuclei.ai/"><img src="https://user-images.githubusercontent.com/22963551/233059785-28ce2549-62de-42c2-925a-c0aa08aef6bd.png" height="40px" alt="NucleiAI" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.algohash.org/"><img src="https://user-images.githubusercontent.com/22963551/233061211-9a9ec216-9fc0-46fd-a124-bf951057207c.png" height="40px" alt="Algohash" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.typingmind.com/?utm_source=agigpt"><img src="https://user-images.githubusercontent.com/22963551/233202971-61e77209-58a0-47d9-9f7e-dd081111437b.png" height="40px" alt="TypingMind" /></a>&nbsp;&nbsp;&nbsp;&nbsp;</p></p>
 
 <p align="center">
 <a href="https://github.com/robinicus"><img src="https://github.com/robinicus.png" width="50px" alt="robinicus" /></a>&nbsp;&nbsp;<a href="https://github.com/prompthero"><img src="https://github.com/prompthero.png" width="50px" alt="prompthero" /></a>&nbsp;&nbsp;<a href="https://github.com/crizzler"><img src="https://github.com/crizzler.png" width="50px" alt="crizzler" /></a>&nbsp;&nbsp;<a href="https://github.com/tob-le-rone"><img src="https://github.com/tob-le-rone.png" width="50px" alt="tob-le-rone" /></a>&nbsp;&nbsp;<a href="https://github.com/FSTatSBS"><img src="https://github.com/FSTatSBS.png" width="50px" alt="FSTatSBS" /></a>&nbsp;&nbsp;<a href="https://github.com/toverly1"><img src="https://github.com/toverly1.png" width="50px" alt="toverly1" /></a>&nbsp;&nbsp;<a href="https://github.com/ddtarazona"><img src="https://github.com/ddtarazona.png" width="50px" alt="ddtarazona" /></a>&nbsp;&nbsp;<a href="https://github.com/Nalhos"><img src="https://github.com/Nalhos.png" width="50px" alt="Nalhos" /></a>&nbsp;&nbsp;<a href="https://github.com/Kazamario"><img src="https://github.com/Kazamario.png" width="50px" alt="Kazamario" /></a>&nbsp;&nbsp;<a href="https://github.com/pingbotan"><img src="https://github.com/pingbotan.png" width="50px" alt="pingbotan" /></a>&nbsp;&nbsp;<a href="https://github.com/indoor47"><img src="https://github.com/indoor47.png" width="50px" alt="indoor47" /></a>&nbsp;&nbsp;<a href="https://github.com/AuroraHolding"><img src="https://github.com/AuroraHolding.png" width="50px" alt="AuroraHolding" /></a>&nbsp;&nbsp;<a href="https://github.com/kreativai"><img src="https://github.com/kreativai.png" width="50px" alt="kreativai" /></a>&nbsp;&nbsp;<a href="https://github.com/hunteraraujo"><img src="https://github.com/hunteraraujo.png" width="50px" alt="hunteraraujo" /></a>&nbsp;&nbsp;<a href="https://github.com/Explorergt92"><img src="https://github.com/Explorergt92.png" width="50px" alt="Explorergt92" /></a>&nbsp;&nbsp;<a href="https://github.com/judegomila"><img src="https://github.com/judegomila.png" width="50px" alt="judegomila" /></a>&nbsp;&nbsp;
@@ -132,7 +132,7 @@ _To execute the following commands, open a CMD, Bash, or Powershell window by na
 
 ## 🔧 Usage
 
-1. Run `autogpt` Python module in your terminal.
+1. Run `agigpt` Python module in your terminal.
   On linux or mac:
     ```bash
     # On Linux or Mac:
@@ -156,7 +156,7 @@ Activity and error logs are located in the `./output/logs`
 To print out debug logs:
 
 ```
-python -m autogpt --debug
+python -m agigpt --debug
 ```
 
 ### Docker
@@ -164,8 +164,8 @@ python -m autogpt --debug
 You can also build this into a docker image and run it:
 
 ```bash
-docker build -t autogpt .
-docker run -it --env-file=./.env -v $PWD/auto_gpt_workspace:/app/auto_gpt_workspace autogpt
+docker build -t agigpt .
+docker run -it --env-file=./.env -v $PWD/auto_gpt_workspace:/app/auto_gpt_workspace agigpt
 ```
 
 Or if you have `docker-compose`:
@@ -175,7 +175,7 @@ docker-compose run --build --rm AGI-GPT
 
 You can pass extra arguments, for instance, running with `--gpt3only` and `--continuous` mode:
 ```bash
-docker run -it --env-file=./.env -v $PWD/auto_gpt_workspace:/app/auto_gpt_workspace autogpt --gpt3only --continuous
+docker run -it --env-file=./.env -v $PWD/auto_gpt_workspace:/app/auto_gpt_workspace agigpt --gpt3only --continuous
 ```
 ```bash
 docker-compose run --build --rm AGI-GPT --gpt3only --continuous
@@ -187,25 +187,25 @@ Here are some common arguments you can use when running AGI-GPT:
 
 * View all available command line arguments
     ```bash
-    python -m autogpt --help
+    python -m agigpt --help
     ```
 * Run AGI-GPT with a different AI Settings file
     ```bash
-    python -m autogpt --ai-settings <filename>
+    python -m agigpt --ai-settings <filename>
     ```
 * Specify a memory backend
     ```bash
-    python -m autogpt --use-memory  <memory-backend>
+    python -m agigpt --use-memory  <memory-backend>
     ```
 
-> **NOTE**: There are shorthands for some of these flags, for example `-m` for `--use-memory`. Use `python -m autogpt --help` for more information
+> **NOTE**: There are shorthands for some of these flags, for example `-m` for `--use-memory`. Use `python -m agigpt --help` for more information
 
 ## 🗣️ Speech Mode
 
 Use this to use TTS _(Text-to-Speech)_ for AGI-GPT
 
 ```bash
-python -m autogpt --speak
+python -m agigpt --speak
 ```
 
 ### List of IDs with names from eleven labs, you can use the name or ID:
@@ -335,7 +335,7 @@ export MEMORY_BACKEND="pinecone"
 - set `MEMORY_BACKEND` in `.env` to `milvus` to enable milvus as backend.
 
 **Optional:**
-- set `MILVUS_COLLECTION` in `.env` to change milvus collection name as you want, `autogpt` is the default name.
+- set `MILVUS_COLLECTION` in `.env` to change milvus collection name as you want, `agigpt` is the default name.
 
 
 ### Weaviate Setup
@@ -364,7 +364,7 @@ WEAVIATE_PASSWORD="your password"
 WEAVIATE_API_KEY="your weaviate API key if you have one"
 WEAVIATE_EMBEDDED_PATH="/home/me/.local/share/weaviate" # this is optional and indicates where the data should be persisted when running an embedded instance
 USE_WEAVIATE_EMBEDDED=False # set to True to run Embedded Weaviate
-MEMORY_INDEX="Autogpt" # name of the index to create for the application
+MEMORY_INDEX="agigpt" # name of the index to create for the application
 ```
  
 ## View Memory Usage
@@ -391,7 +391,7 @@ options:
 
 # python data_ingestion.py --dir DataFolder --init --overlap 100 --max_length 2000
 ```
-In the example above, the script initializes the memory, ingests all files within the `AGI-GPT/autogpt/auto_gpt_workspace/DataFolder` directory into memory with an overlap between chunks of 100 and a maximum length of each chunk of 2000.
+In the example above, the script initializes the memory, ingests all files within the `AGI-GPT/agigpt/auto_gpt_workspace/DataFolder` directory into memory with an overlap between chunks of 100 and a maximum length of each chunk of 2000.
 
 Note that you can also use the `--file` argument to ingest a single file into memory and that data_ingestion.py will only ingest files within the `/auto_gpt_workspace` directory.
 
@@ -417,10 +417,10 @@ Continuous mode is NOT recommended.
 It is potentially dangerous and may cause your AI to run forever or carry out actions you would not usually authorize.
 Use at your own risk.
 
-1. Run the `autogpt` python module in your terminal:
+1. Run the `agigpt` python module in your terminal:
 
     ```bash
-    python -m autogpt --speak --continuous
+    python -m agigpt --speak --continuous
     ```
 
 2. To exit the program, press Ctrl + C
@@ -430,7 +430,7 @@ Use at your own risk.
 If you don't have access to the GPT4 api, this mode will allow you to use AGI-GPT!
 
 ```bash
-python -m autogpt --speak --gpt3only
+python -m agigpt --speak --gpt3only
 ```
 
 It is recommended to use a virtual machine for tasks that require high security measures to prevent any potential harm to the main computer's system and data.
@@ -511,7 +511,7 @@ pytest --without-slow-integration
 To run tests and see coverage, run the following command:
 
 ```bash
-pytest --cov=autogpt --without-integration --without-slow-integration
+pytest --cov=agigpt --without-integration --without-slow-integration
 ```
 
 ## Run linter
@@ -521,8 +521,8 @@ This project uses [flake8](https://flake8.pycqa.org/en/latest/) for linting. We 
 To run the linter, run the following command:
 
 ```bash
-flake8 autogpt/ tests/
+flake8 agigpt/ tests/
 
 # Or, if you want to run flake8 with the same configuration as the CI:
-flake8 autogpt/ tests/ --select E303,W293,W291,W292,E305,E231,E302
+flake8 agigpt/ tests/ --select E303,W293,W291,W292,E305,E231,E302
 ```

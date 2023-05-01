@@ -1,14 +1,14 @@
 from colorama import Fore, Style
 
-from autogpt.app import execute_command, get_command
-from autogpt.chat import chat_with_ai, create_chat_message
-from autogpt.config import Config
-from autogpt.json_utils.json_fix_llm import fix_json_using_multiple_techniques
-from autogpt.json_utils.utilities import validate_json
-from autogpt.logs import logger, print_assistant_thoughts
-from autogpt.speech import say_text
-from autogpt.spinner import Spinner
-from autogpt.utils import clean_input
+from agigpt.app import execute_command, get_command
+from agigpt.chat import chat_with_ai, create_chat_message
+from agigpt.config import Config
+from agigpt.json_utils.json_fix_llm import fix_json_using_multiple_techniques
+from agigpt.json_utils.utilities import validate_json
+from agigpt.logs import logger, print_assistant_thoughts
+from agigpt.speech import say_text
+from agigpt.spinner import Spinner
+from agigpt.utils import clean_input
 
 
 class Agent:

@@ -6,7 +6,7 @@ import yaml
 from colorama import Fore
 from dotenv import load_dotenv
 
-from autogpt.config.singleton import Singleton
+from agigpt.config.singleton import Singleton
 
 load_dotenv(verbose=True)
 
@@ -85,7 +85,7 @@ class Config(metaclass=Singleton):
 
         # milvus configuration, e.g., localhost:19530.
         self.milvus_addr = os.getenv("MILVUS_ADDR", "localhost:19530")
-        self.milvus_collection = os.getenv("MILVUS_COLLECTION", "autogpt")
+        self.milvus_collection = os.getenv("MILVUS_COLLECTION", "agigpt")
 
         self.image_provider = os.getenv("IMAGE_PROVIDER")
         self.image_size = int(os.getenv("IMAGE_SIZE", 256))

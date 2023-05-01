@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from autogpt.config import Config
+from agigpt.config import Config
 
 
 class TestConfig(TestCase):

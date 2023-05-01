@@ -5,7 +5,7 @@ import sys
 import unittest
 
 try:
-    from autogpt.memory.milvus import MilvusMemory
+    from agigpt.memory.milvus import MilvusMemory
 
     def mock_config() -> dict:
         """Mock the Config class"""
@@ -16,7 +16,7 @@ try:
                 "debug_mode": False,
                 "continuous_mode": False,
                 "speak_mode": False,
-                "milvus_collection": "autogpt",
+                "milvus_collection": "agigpt",
                 "milvus_addr": "localhost:19530",
             },
         )

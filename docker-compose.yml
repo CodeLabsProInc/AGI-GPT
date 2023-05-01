@@ -10,7 +10,7 @@ services:
     env_file:
       - .env
     volumes:
-      - "./autogpt:/app"
+      - "./agigpt:/app"
       - ".env:/app/.env"
     profiles: ["exclude-from-up"]
 

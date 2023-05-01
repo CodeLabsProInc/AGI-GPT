@@ -2,8 +2,8 @@ import json
 
 import requests
 
-from autogpt.config import Config
-from autogpt.workspace import path_in_workspace
+from agigpt.config import Config
+from agigpt.workspace import path_in_workspace
 
 cfg = Config()
 

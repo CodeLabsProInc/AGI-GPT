@@ -9,11 +9,11 @@ from typing import Any, Dict
 from colorama import Fore
 from regex import regex
 
-from autogpt.config import Config
-from autogpt.json_utils.json_fix_general import correct_json
-from autogpt.llm_utils import call_ai_function
-from autogpt.logs import logger
-from autogpt.speech import say_text
+from agigpt.config import Config
+from agigpt.json_utils.json_fix_general import correct_json
+from agigpt.llm_utils import call_ai_function
+from agigpt.logs import logger
+from agigpt.speech import say_text
 
 JSON_SCHEMA = """
 {

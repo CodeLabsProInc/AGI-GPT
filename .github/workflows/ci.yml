@@ -63,7 +63,7 @@ jobs:
 
     - name: Run unittest tests with coverage
       run: |
-        pytest --cov=autogpt --without-integration --without-slow-integration
+        pytest --cov=agigpt --without-integration --without-slow-integration
 
     - name: Generate coverage report
       run: |

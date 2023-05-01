@@ -1,9 +1,9 @@
 import argparse
 import logging
 
-from autogpt.commands.file_operations import ingest_file, search_files
-from autogpt.config import Config
-from autogpt.memory import get_memory
+from agigpt.commands.file_operations import ingest_file, search_files
+from agigpt.config import Config
+from agigpt.memory import get_memory
 
 cfg = Config()
 
@@ -16,7 +16,7 @@ def configure_logging():
         datefmt="%H:%M:%S",
         level=logging.DEBUG,
     )
-    return logging.getLogger("AutoGPT-Ingestion")
+    return logging.getLogger("agigpt-Ingestion")
 
 
 def ingest_directory(directory, memory, args):

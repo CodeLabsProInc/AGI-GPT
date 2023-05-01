@@ -1,11 +1,11 @@
-"""Smoke test for the autogpt package."""
+"""Smoke test for the agigpt package."""
 import os
 import subprocess
 import sys
 
 import pytest
 
-from autogpt.commands.file_operations import delete_file, read_file
+from agigpt.commands.file_operations import delete_file, read_file
 
 
 @pytest.mark.integration_test
@@ -36,7 +36,7 @@ Do not use any other commands.
 
 y -5
 EOF"""
-        command = f"{sys.executable} -m autogpt"
+        command = f"{sys.executable} -m agigpt"
 
         # Execute the script with the input data.
         process = subprocess.Popen(

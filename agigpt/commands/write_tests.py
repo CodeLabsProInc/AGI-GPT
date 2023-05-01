@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import json
 
-from autogpt.llm_utils import call_ai_function
+from agigpt.llm_utils import call_ai_function
 
 
 def write_tests(code: str, focus: list[str]) -> str:

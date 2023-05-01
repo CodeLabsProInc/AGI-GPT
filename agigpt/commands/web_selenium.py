@@ -17,9 +17,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
-import autogpt.processing.text as summary
-from autogpt.config import Config
-from autogpt.processing.html import extract_hyperlinks, format_hyperlinks
+import agigpt.processing.text as summary
+from agigpt.config import Config
+from agigpt.processing.html import extract_hyperlinks, format_hyperlinks
 
 FILE_DIR = Path(__file__).parent.parent
 CFG = Config()

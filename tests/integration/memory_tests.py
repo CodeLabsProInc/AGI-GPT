@@ -4,8 +4,8 @@ import sys
 import unittest
 from pathlib import Path
 
-from autogpt.config import Config
-from autogpt.memory.local import LocalCache
+from agigpt.config import Config
+from agigpt.memory.local import LocalCache
 
 
 class TestLocalCache(unittest.TestCase):

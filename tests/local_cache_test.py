@@ -6,7 +6,7 @@ import unittest
 
 import pytest
 
-from autogpt.memory.local import LocalCache
+from agigpt.memory.local import LocalCache
 
 
 def mock_config() -> dict:

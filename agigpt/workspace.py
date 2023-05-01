@@ -3,7 +3,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-from autogpt.config import Config
+from agigpt.config import Config
 
 CFG = Config()
 

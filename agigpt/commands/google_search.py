@@ -1,11 +1,11 @@
-"""Google search command for Autogpt."""
+"""Google search command for Agigpt."""
 from __future__ import annotations
 
 import json
 
 from duckduckgo_search import ddg
 
-from autogpt.config import Config
+from agigpt.config import Config
 
 CFG = Config()
 

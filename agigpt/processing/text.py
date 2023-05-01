@@ -4,10 +4,10 @@ from typing import Dict, Generator, Optional
 import spacy
 from selenium.webdriver.remote.webdriver import WebDriver
 
-from autogpt import token_counter
-from autogpt.config import Config
-from autogpt.llm_utils import create_chat_completion
-from autogpt.memory import get_memory
+from agigpt import token_counter
+from agigpt.config import Config
+from agigpt.llm_utils import create_chat_completion
+from agigpt.memory import get_memory
 
 CFG = Config()
 MEMORY = get_memory(CFG)

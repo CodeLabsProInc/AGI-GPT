@@ -1,9 +1,9 @@
 """Set up the AI and its goals"""
 from colorama import Fore, Style
 
-from autogpt import utils
-from autogpt.config.ai_config import AIConfig
-from autogpt.logs import logger
+from agigpt import utils
+from agigpt.config.ai_config import AIConfig
+from agigpt.logs import logger
 
 
 def prompt_user() -> AIConfig:

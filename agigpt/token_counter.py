@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import tiktoken
 
-from autogpt.logs import logger
+from agigpt.logs import logger
 
 
 def count_message_tokens(

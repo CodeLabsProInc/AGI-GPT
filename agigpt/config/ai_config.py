@@ -108,7 +108,7 @@ class AIConfig:
             ""
         )
 
-        from autogpt.prompt import get_prompt
+        from agigpt.prompt import get_prompt
 
         # Construct full prompt
         full_prompt = (

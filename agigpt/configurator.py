@@ -2,10 +2,10 @@
 import click
 from colorama import Back, Fore, Style
 
-from autogpt import utils
-from autogpt.config import Config
-from autogpt.logs import logger
-from autogpt.memory import get_supported_memory_backends
+from agigpt import utils
+from agigpt.config import Config
+from agigpt.logs import logger
+from agigpt.memory import get_supported_memory_backends
 
 CFG = Config()
 

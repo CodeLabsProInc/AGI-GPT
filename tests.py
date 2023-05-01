@@ -7,7 +7,7 @@ if __name__ == "__main__":
     cov = coverage.Coverage()
     cov.start()
 
-    # Load all tests from the 'autogpt/tests' package
+    # Load all tests from the 'agigpt/tests' package
     suite = unittest.defaultTestLoader.discover("./tests")
 
     # Run the tests

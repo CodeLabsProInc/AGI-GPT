@@ -1,4 +1,4 @@
-""" Image Generation Module for AutoGPT."""
+""" Image Generation Module for AgiGPT."""
 import io
 import os.path
 import uuid
@@ -8,8 +8,8 @@ import openai
 import requests
 from PIL import Image
 
-from autogpt.config import Config
-from autogpt.workspace import path_in_workspace
+from agigpt.config import Config
+from agigpt.workspace import path_in_workspace
 
 CFG = Config()
 

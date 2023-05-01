@@ -5,5 +5,5 @@ then
     echo Installing missing packages...
     pip install -r requirements.txt
 fi
-python -m autogpt $@
+python -m agigpt $@
 read -p "Press any key to continue..."

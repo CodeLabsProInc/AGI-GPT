@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from autogpt.promptgenerator import PromptGenerator
+from agigpt.promptgenerator import PromptGenerator
 
 
 class TestPromptGenerator(TestCase):

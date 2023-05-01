@@ -3,8 +3,8 @@ from __future__ import annotations
 
 from typing import Union
 
-from autogpt.config.config import Singleton
-from autogpt.llm_utils import create_chat_completion
+from agigpt.config.config import Singleton
+from agigpt.llm_utils import create_chat_completion
 
 
 class AgentManager(metaclass=Singleton):

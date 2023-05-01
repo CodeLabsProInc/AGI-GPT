@@ -75,7 +75,7 @@ Needs improvement.
 Not what I need."""
     # TODO: add questions above, to distract it even more.
 
-    command = f"{sys.executable} -m autogpt"
+    command = f"{sys.executable} -m agigpt"
 
     process = subprocess.Popen(
         command,
