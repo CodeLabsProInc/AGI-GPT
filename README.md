@@ -1,22 +1,22 @@
-# Auto-GPT: An Autonomous GPT-4 Experiment
-[![Unit Tests](https://img.shields.io/github/actions/workflow/status/Significant-Gravitas/Auto-GPT/ci.yml?label=unit%20tests)](https://github.com/Significant-Gravitas/Auto-GPT/actions/workflows/ci.yml)
+# AGI-GPT: An Autonomous GPT-4 Experiment
+[![Unit Tests](https://img.shields.io/github/actions/workflow/status/Significant-Gravitas/AGI-GPT/ci.yml?label=unit%20tests)](https://github.com/Significant-Gravitas/AGI-GPT/actions/workflows/ci.yml)
 [![Discord Follow](https://dcbadge.vercel.app/api/server/autogpt?style=flat)](https://discord.gg/autogpt)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Significant-Gravitas/auto-gpt?style=social)](https://github.com/Significant-Gravitas/Auto-GPT/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Significant-Gravitas/AGI-GPT?style=social)](https://github.com/Significant-Gravitas/AGI-GPT/stargazers)
 [![Twitter Follow](https://img.shields.io/twitter/follow/siggravitas?style=social)](https://twitter.com/SigGravitas)
 
-## 💡 Get help - [Q&A](https://github.com/Significant-Gravitas/Auto-GPT/discussions/categories/q-a) or [Discord 💬](https://discord.gg/autogpt)
+## 💡 Get help - [Q&A](https://github.com/Significant-Gravitas/AGI-GPT/discussions/categories/q-a) or [Discord 💬](https://discord.gg/autogpt)
 
 <hr/>
 
 ### 🔴 🔴 🔴  Urgent: USE `stable` not `master`  🔴 🔴 🔴
 
-**Download the latest `stable` release from here: https://github.com/Significant-Gravitas/Auto-GPT/releases/latest.**
+**Download the latest `stable` release from here: https://github.com/Significant-Gravitas/AGI-GPT/releases/latest.**
 The `master` branch may often be in a **broken** state.
 
 <hr/>
 
 
-Auto-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. This program, driven by GPT-4, chains together LLM "thoughts", to autonomously achieve whatever goal you set. As one of the first examples of GPT-4 running fully autonomously, Auto-GPT pushes the boundaries of what is possible with AI.
+AGI-GPT is an experimental open-source application showcasing the capabilities of the GPT-4 language model. This program, driven by GPT-4, chains together LLM "thoughts", to autonomously achieve whatever goal you set. As one of the first examples of GPT-4 running fully autonomously, AGI-GPT pushes the boundaries of what is possible with AI.
 
 <h2 align="center"> Demo April 16th 2023 </h2>
 
@@ -24,11 +24,11 @@ https://user-images.githubusercontent.com/70048414/232352935-55c6bf7c-3958-406e-
 
 Demo made by <a href=https://twitter.com/BlakeWerlinger>Blake Werlinger</a>
 
-<h2 align="center"> 💖 Help Fund Auto-GPT's Development 💖</h2>
+<h2 align="center"> 💖 Help Fund AGI-GPT's Development 💖</h2>
 <p align="center">
-If you can spare a coffee, you can help to cover the costs of developing Auto-GPT and help push the boundaries of fully autonomous AI!
+If you can spare a coffee, you can help to cover the costs of developing AGI-GPT and help push the boundaries of fully autonomous AI!
 Your support is greatly appreciated
-Development of this free, open-source project is made possible by all the <a href="https://github.com/Significant-Gravitas/Auto-GPT/graphs/contributors">contributors</a> and <a href="https://github.com/sponsors/Torantulino">sponsors</a>. If you'd like to sponsor this project and have your avatar or company logo appear below <a href="https://github.com/sponsors/Torantulino">click here</a>.
+Development of this free, open-source project is made possible by all the <a href="https://github.com/Significant-Gravitas/AGI-GPT/graphs/contributors">contributors</a> and <a href="https://github.com/sponsors/Torantulino">sponsors</a>. If you'd like to sponsor this project and have your avatar or company logo appear below <a href="https://github.com/sponsors/Torantulino">click here</a>.
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ Development of this free, open-source project is made possible by all the <a hre
 
 Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
 
-To use OpenAI API key for Auto-GPT, you **NEED** to have billing set up (AKA paid account).
+To use OpenAI API key for AGI-GPT, you **NEED** to have billing set up (AKA paid account).
 
 You can set up paid account at https://platform.openai.com/account/billing/overview.
 
@@ -78,23 +78,23 @@ You can set up paid account at https://platform.openai.com/account/billing/overv
 
 ## 💾 Installation
 
-To install Auto-GPT, follow these steps:
+To install AGI-GPT, follow these steps:
 
 1. Make sure you have all the **requirements** listed above, if not, install/get them
 
 _To execute the following commands, open a CMD, Bash, or Powershell window by navigating to a folder on your computer and typing `CMD` in the folder path at the top, then press enter._
 
 2. Clone the repository: For this step, you need Git installed. Alternatively,
-   you can download the [latest stable release](https://github.com/Significant-Gravitas/Auto-GPT/releases/latest) (`Source code (zip)`, bottom of the page).
+   you can download the [latest stable release](https://github.com/Significant-Gravitas/AGI-GPT/releases/latest) (`Source code (zip)`, bottom of the page).
 
     ```bash
-    git clone https://github.com/Significant-Gravitas/Auto-GPT.git
+    git clone https://github.com/Significant-Gravitas/AGI-GPT.git
     ```
 
 3. Navigate to the directory where the repository was downloaded
 
     ```bash
-    cd Auto-GPT
+    cd AGI-GPT
     ```
 
 4. Install the required dependencies
@@ -103,8 +103,8 @@ _To execute the following commands, open a CMD, Bash, or Powershell window by na
     pip install -r requirements.txt
     ```
 
-5. Configure Auto-GPT
-   1. Locate the file named `.env.template` in the main `/Auto-GPT` folder.
+5. Configure AGI-GPT
+   1. Locate the file named `.env.template` in the main `/AGI-GPT` folder.
    2. Create a copy of this file, called `.env` by removing the `template` extension.  The easiest way is to do this in a command prompt/terminal window `cp .env.template .env`.
    3. Open the `.env` file in a text editor.  _Note: Files starting with a dot might be hidden by your Operating System._
    4. Find the line that says `OPENAI_API_KEY=`.
@@ -170,7 +170,7 @@ docker run -it --env-file=./.env -v $PWD/auto_gpt_workspace:/app/auto_gpt_worksp
 
 Or if you have `docker-compose`:
 ```bash
-docker-compose run --build --rm auto-gpt
+docker-compose run --build --rm AGI-GPT
 ```
 
 You can pass extra arguments, for instance, running with `--gpt3only` and `--continuous` mode:
@@ -178,18 +178,18 @@ You can pass extra arguments, for instance, running with `--gpt3only` and `--con
 docker run -it --env-file=./.env -v $PWD/auto_gpt_workspace:/app/auto_gpt_workspace autogpt --gpt3only --continuous
 ```
 ```bash
-docker-compose run --build --rm auto-gpt --gpt3only --continuous
+docker-compose run --build --rm AGI-GPT --gpt3only --continuous
 ```
 
 ### Command Line Arguments
-Here are some common arguments you can use when running Auto-GPT:
+Here are some common arguments you can use when running AGI-GPT:
 > Replace anything in angled brackets (<>) to a value you want to specify
 
 * View all available command line arguments
     ```bash
     python -m autogpt --help
     ```
-* Run Auto-GPT with a different AI Settings file
+* Run AGI-GPT with a different AI Settings file
     ```bash
     python -m autogpt --ai-settings <filename>
     ```
@@ -202,7 +202,7 @@ Here are some common arguments you can use when running Auto-GPT:
 
 ## 🗣️ Speech Mode
 
-Use this to use TTS _(Text-to-Speech)_ for Auto-GPT
+Use this to use TTS _(Text-to-Speech)_ for AGI-GPT
 
 ```bash
 python -m autogpt --speak
@@ -256,7 +256,7 @@ export CUSTOM_SEARCH_ENGINE_ID="YOUR_CUSTOM_SEARCH_ENGINE_ID"
 
 ## Setting Your Cache Type
 
-By default, Auto-GPT is going to use LocalCache instead of redis or Pinecone.
+By default, AGI-GPT is going to use LocalCache instead of redis or Pinecone.
 
 To switch to either, change the `MEMORY_BACKEND` env variable to the value that you want:
 
@@ -340,7 +340,7 @@ export MEMORY_BACKEND="pinecone"
 
 ### Weaviate Setup
 [Weaviate](https://weaviate.io/) is an open-source vector database. It allows to store data objects and vector embeddings from ML-models and scales seamlessly to billion of data objects. [An instance of Weaviate can be created locally (using Docker), on Kubernetes or using Weaviate Cloud Services](https://weaviate.io/developers/weaviate/quickstart). 
-Although still experimental, [Embedded Weaviate](https://weaviate.io/developers/weaviate/installation/embedded) is supported which allows the Auto-GPT process itself to start a Weaviate instance. To enable it, set `USE_WEAVIATE_EMBEDDED` to `True` and make sure you `pip install "weaviate-client>=3.15.4"`. 
+Although still experimental, [Embedded Weaviate](https://weaviate.io/developers/weaviate/installation/embedded) is supported which allows the AGI-GPT process itself to start a Weaviate instance. To enable it, set `USE_WEAVIATE_EMBEDDED` to `True` and make sure you `pip install "weaviate-client>=3.15.4"`. 
 
 #### Install the Weaviate client
 
@@ -373,7 +373,7 @@ View memory usage by using the `--debug` flag :)
 
 
 ## 🧠 Memory pre-seeding
-Memory pre-seeding allows you to ingest files into memory and pre-seed it before running Auto-GPT.
+Memory pre-seeding allows you to ingest files into memory and pre-seed it before running AGI-GPT.
 
 ```bash
 # python data_ingestion.py -h 
@@ -391,7 +391,7 @@ options:
 
 # python data_ingestion.py --dir DataFolder --init --overlap 100 --max_length 2000
 ```
-In the example above, the script initializes the memory, ingests all files within the `Auto-Gpt/autogpt/auto_gpt_workspace/DataFolder` directory into memory with an overlap between chunks of 100 and a maximum length of each chunk of 2000.
+In the example above, the script initializes the memory, ingests all files within the `AGI-GPT/autogpt/auto_gpt_workspace/DataFolder` directory into memory with an overlap between chunks of 100 and a maximum length of each chunk of 2000.
 
 Note that you can also use the `--file` argument to ingest a single file into memory and that data_ingestion.py will only ingest files within the `/auto_gpt_workspace` directory.
 
@@ -402,13 +402,13 @@ You can adjust the `max_length` and overlap parameters to fine-tune the way the 
 - Reducing the `max_length` value will create more chunks, which can save prompt tokens by allowing for more message history in the context, but will also increase the number of chunks.
 - Increasing the `max_length` value will provide the AI with more contextual information from each chunk, reducing the number of chunks created and saving on OpenAI API requests. However, this may also use more prompt tokens and decrease the overall context available to the AI.
 
-Memory pre-seeding is a technique for improving AI accuracy by ingesting relevant data into its memory. Chunks of data are split and added to memory, allowing the AI to access them quickly and generate more accurate responses. It's useful for large datasets or when specific information needs to be accessed quickly. Examples include ingesting API or GitHub documentation before running Auto-GPT.
+Memory pre-seeding is a technique for improving AI accuracy by ingesting relevant data into its memory. Chunks of data are split and added to memory, allowing the AI to access them quickly and generate more accurate responses. It's useful for large datasets or when specific information needs to be accessed quickly. Examples include ingesting API or GitHub documentation before running AGI-GPT.
 
-⚠️ If you use Redis as your memory, make sure to run Auto-GPT with the `WIPE_REDIS_ON_START=False` in your `.env` file.
+⚠️ If you use Redis as your memory, make sure to run AGI-GPT with the `WIPE_REDIS_ON_START=False` in your `.env` file.
 
-⚠️For other memory backend, we currently forcefully wipe the memory when starting Auto-GPT. To ingest data with those memory backend, you can call the `data_ingestion.py` script anytime during an Auto-GPT run. 
+⚠️For other memory backend, we currently forcefully wipe the memory when starting AGI-GPT. To ingest data with those memory backend, you can call the `data_ingestion.py` script anytime during an AGI-GPT run. 
 
-Memories will be available to the AI immediately as they are ingested, even if ingested while Auto-GPT is running.
+Memories will be available to the AI immediately as they are ingested, even if ingested while AGI-GPT is running.
 
 ## 💀 Continuous Mode ⚠️
 
@@ -427,7 +427,7 @@ Use at your own risk.
 
 ## GPT3.5 ONLY Mode
 
-If you don't have access to the GPT4 api, this mode will allow you to use Auto-GPT!
+If you don't have access to the GPT4 api, this mode will allow you to use AGI-GPT!
 
 ```bash
 python -m autogpt --speak --gpt3only
@@ -437,7 +437,7 @@ It is recommended to use a virtual machine for tasks that require high security 
 
 ## 🖼 Image Generation
 
-By default, Auto-GPT uses DALL-e for image generation. To use Stable Diffusion, a [Hugging Face API Token](https://huggingface.co/settings/tokens) is required.
+By default, AGI-GPT uses DALL-e for image generation. To use Stable Diffusion, a [Hugging Face API Token](https://huggingface.co/settings/tokens) is required.
 
 Once you have a token, set these variables in your `.env`:
 
@@ -462,28 +462,28 @@ This experiment aims to showcase the potential of GPT-4 but comes with some limi
 ## 🛡 Disclaimer
 
 Disclaimer
-This project, Auto-GPT, is an experimental application and is provided "as-is" without any warranty, express or implied. By using this software, you agree to assume all risks associated with its use, including but not limited to data loss, system failure, or any other issues that may arise.
+This project, AGI-GPT, is an experimental application and is provided "as-is" without any warranty, express or implied. By using this software, you agree to assume all risks associated with its use, including but not limited to data loss, system failure, or any other issues that may arise.
 
-The developers and contributors of this project do not accept any responsibility or liability for any losses, damages, or other consequences that may occur as a result of using this software. You are solely responsible for any decisions and actions taken based on the information provided by Auto-GPT.
+The developers and contributors of this project do not accept any responsibility or liability for any losses, damages, or other consequences that may occur as a result of using this software. You are solely responsible for any decisions and actions taken based on the information provided by AGI-GPT.
 
 **Please note that the use of the GPT-4 language model can be expensive due to its token usage.** By utilizing this project, you acknowledge that you are responsible for monitoring and managing your own token usage and the associated costs. It is highly recommended to check your OpenAI API usage regularly and set up any necessary limits or alerts to prevent unexpected charges.
 
-As an autonomous experiment, Auto-GPT may generate content or take actions that are not in line with real-world business practices or legal requirements. It is your responsibility to ensure that any actions or decisions made based on the output of this software comply with all applicable laws, regulations, and ethical standards. The developers and contributors of this project shall not be held responsible for any consequences arising from the use of this software.
+As an autonomous experiment, AGI-GPT may generate content or take actions that are not in line with real-world business practices or legal requirements. It is your responsibility to ensure that any actions or decisions made based on the output of this software comply with all applicable laws, regulations, and ethical standards. The developers and contributors of this project shall not be held responsible for any consequences arising from the use of this software.
 
-By using Auto-GPT, you agree to indemnify, defend, and hold harmless the developers, contributors, and any affiliated parties from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from your use of this software or your violation of these terms.
+By using AGI-GPT, you agree to indemnify, defend, and hold harmless the developers, contributors, and any affiliated parties from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from your use of this software or your violation of these terms.
 
 ## 🐦 Connect with Us on Twitter
 
-Stay up-to-date with the latest news, updates, and insights about Auto-GPT by following our Twitter accounts. Engage with the developer and the AI's own account for interesting discussions, project updates, and more.
+Stay up-to-date with the latest news, updates, and insights about AGI-GPT by following our Twitter accounts. Engage with the developer and the AI's own account for interesting discussions, project updates, and more.
 
 - **Developer**: Follow [@siggravitas](https://twitter.com/siggravitas) for insights into the development process, project updates, and related topics from the creator of Entrepreneur-GPT.
 - **Entrepreneur-GPT**: Join the conversation with the AI itself by following [@En_GPT](https://twitter.com/En_GPT). Share your experiences, discuss the AI's outputs, and engage with the growing community of users.
 
-We look forward to connecting with you and hearing your thoughts, ideas, and experiences with Auto-GPT. Join us on Twitter and let's explore the future of AI together!
+We look forward to connecting with you and hearing your thoughts, ideas, and experiences with AGI-GPT. Join us on Twitter and let's explore the future of AI together!
 
 <p align="center">
-  <a href="https://star-history.com/#Torantulino/auto-gpt&Date">
-    <img src="https://api.star-history.com/svg?repos=Torantulino/auto-gpt&type=Date" alt="Star History Chart">
+  <a href="https://star-history.com/#Torantulino/AGI-GPT&Date">
+    <img src="https://api.star-history.com/svg?repos=Torantulino/AGI-GPT&type=Date" alt="Star History Chart">
   </a>
 </p>
 
